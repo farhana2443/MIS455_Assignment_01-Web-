@@ -70,16 +70,33 @@ h1, h2, h3 {
 
 .external-links a {
   color: #4a2c2a;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: 700;
   font-size: 1rem;
-  padding: 8px 16px;
-  border: 2px solid #4a2c2a;
-  border-radius: 4px;
-  transition: all 0.3s ease;
 }
 .gallery-item img {
   width: 50%;
   height: 550px;
   object-fit: cover;
+}
+.blog-card {
+  display: flex;
+  gap: 24px;
+  background-color: #fff8ef;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 16px rgba(74,44,42,0.12);
+}
+.blog-card img {
+  width: 240px;
+  min-height: 220px;
+}
+
+.blog-content {
+  padding: 24px;
+}
+
+.blog-content h2 {
+  font-size: 1.4rem;
+  margin-bottom: 6px;
 }
