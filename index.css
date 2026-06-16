@@ -78,3 +78,8 @@ h1, h2, h3 {
   border-radius: 4px;
   transition: all 0.3s ease;
 }
+.gallery-item img {
+  width: 50%;
+  height: 550px;
+  object-fit: cover;
+}
